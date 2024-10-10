@@ -1,0 +1,45 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /privado/
+Disallow: /temp/
+Disallow: /buscar/
+
+# Etiqueta para SafeSearch de Google (indica que el sitio contiene contenido adulto)
+User-agent: Googlebot
+Disallow: 
+Content-rating: adult
+
+# Bloquear imágenes explícitas de Google Images
+User-agent: Googlebot-Image
+Disallow: /images
+
+# Bloquear bots no deseados (ejemplo)
+User-agent: BadBot
+Disallow: /
+
+User-agent: ExampleBot
+Disallow: /
+
+User-agent: SiteSucker
+Disallow: /
+
+User-agent: HTTrack
+Disallow: /
+
+User-agent: Wget
+Disallow: /
+
+User-agent: BruteForceBot
+Disallow: /
+
+User-agent: SEMrushBot
+Disallow: /
+
+User-agent: Xrumer
+Disallow: /
+
+User-agent: Mirai
+Disallow: /
+
+User-agent: LOIC
+Disallow: /
